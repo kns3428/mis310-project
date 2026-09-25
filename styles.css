@@ -10,3 +10,7 @@ h1, h3 {
     color: brown;
     text-align: center;
 }
+
+.links {
+    margin: 20%;
+}
