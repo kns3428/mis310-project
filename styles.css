@@ -1,8 +1,8 @@
-* {
+body {
     background-image: url(images/filmstrip-background.jpg);
 }
 
-body {
+section {
     background-color: tan;
 }
 
