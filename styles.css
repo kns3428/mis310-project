@@ -2,7 +2,7 @@
 body {
     background-image: url(images/filmstrip-background.jpg);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 section {
@@ -49,9 +49,11 @@ video {
 
 .opener {
     text-align: left;
+    margin-right: 50%;
 }
 
 .top-photo {
     display: block;
     box-align: right;
+    margin-left: 50%;
 }
