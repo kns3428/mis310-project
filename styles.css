@@ -1,0 +1,12 @@
+* {
+    background-image: url(images/filmstrip-background.jpg);
+}
+
+body {
+    background-color: tan;
+}
+
+h1, h3 {
+    color: brown;
+    text-align: center;
+}
