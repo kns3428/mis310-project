@@ -4,11 +4,13 @@ body {
 
 section {
     background-color: tan;
+    margin: 30px
 }
 
 h1, h3 {
     color: brown;
     text-align: center;
+    margin-top: 20px;
 }
 
 .links {
