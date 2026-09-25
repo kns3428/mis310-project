@@ -60,6 +60,6 @@ video {
 .top-photo {
     display: block;
     margin-left: auto;
-    margin-right: right;
+    margin-right: 0;
     padding-right: 20px;
 }
