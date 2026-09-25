@@ -1,5 +1,8 @@
+/*across all pages*/
 body {
     background-image: url(images/filmstrip-background.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
 
 section {
@@ -9,16 +12,26 @@ section {
 
 h1, h3 {
     color: brown;
+    font-size: 16px;
     text-align: center;
     margin-top: 20px;
 }
 
 h1 {
     padding-top: 20px;
+    font-size: 20px;
 }
 
+footer {
+    text-align: center;
+    font-size: 18px;
+    color: red;
+
+}
+/*index.html*/
 .links {
     text-align: center;
+    color: red;
 }
 
 .nav {
