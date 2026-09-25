@@ -13,6 +13,10 @@ h1, h3 {
     margin-top: 20px;
 }
 
+h1 {
+    padding-top: 20px;
+}
+
 .links {
     text-align: center;
 }
