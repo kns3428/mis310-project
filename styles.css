@@ -12,14 +12,14 @@ section {
 
 h1, h3 {
     color: brown;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     margin-top: 20px;
 }
 
 h1 {
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 footer {
@@ -33,6 +33,7 @@ footer {
 .links {
     text-align: center;
     color: red;
+    font-size: 18px;
 }
 
 .nav {
@@ -43,15 +44,14 @@ footer {
 video {
     display: block;
     margin: 0 auto;
-    padding: 15px;
+    padding: 20px;
 }
 
 .opener {
-    margin: 50%;
     text-align: left;
 }
 
 .top-photo {
     display: block;
-    margin: 50%;
+    box-align: right;
 }
