@@ -35,6 +35,7 @@ footer {
     text-align: center;
     color: red;
     font-size: 18px;
+    padding-top: 10px;
 }
 
 .nav {
@@ -50,11 +51,11 @@ video {
 
 .opener {
     text-align: left;
-    margin-right: 50%;
+    margin-right: 55%;
 }
 
 .top-photo {
     display: block;
-    box-align: right;
-    margin-left: 50%;
+    margin-left: 0;
+    margin-right: auto;
 }
