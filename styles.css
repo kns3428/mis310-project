@@ -44,3 +44,13 @@ video {
     margin: 0 auto;
     padding: 15px;
 }
+
+.opener {
+    margin: 50%;
+    text-align: left;
+}
+
+.top-photo {
+    display: block;
+    margin: 50%;
+}
