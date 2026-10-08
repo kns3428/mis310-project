@@ -2,8 +2,9 @@
 body {
     background-image: url(images/filmstrip-background.jpg);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     margin: 0px;
+    color:rgb(39, 39, 39);
 }
 
 .main {
@@ -11,7 +12,7 @@ body {
     margin: 30px;
 }
 
-h1, h3 {
+h1, h2, h3 {
     color: brown;
     font-size: 20px;
     text-align: center;
@@ -83,7 +84,7 @@ header {
 
 .text-column {
     padding-left: 20px;
-    font-size: 22px;
+    font-size: 22px;   
 }
 
 .photo-column {
