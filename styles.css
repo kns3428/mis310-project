@@ -26,6 +26,10 @@ h1 {
     padding-bottom: 20px;
 }
 
+h2 {
+    font-size: 23px;
+}
+
 /*only used for sitename*/
 h4 {
     color: rgb(255, 170, 0);
