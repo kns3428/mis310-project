@@ -52,6 +52,14 @@ video {
     padding: 20px;
 }
 
+@media (width < 1000px) {
+    .video {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+}
+
 .first-row {
     display: flex;
     justify-content: space-between;
