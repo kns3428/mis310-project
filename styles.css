@@ -84,7 +84,7 @@ header {
     justify-content: space-between;
     padding: 20px;
     align-items: center;
-    gap: 20px;
+    gap: 60px;
 }
 
 @media (width < 850px) {
