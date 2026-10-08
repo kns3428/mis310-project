@@ -1,6 +1,9 @@
 /*general*/
 body {
     background-image: url(images/filmstrip-background.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     margin: 0px;
