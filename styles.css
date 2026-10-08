@@ -25,9 +25,11 @@ header {
     color: rgb(255, 170, 0);
 }
 
-section {
+.main {
     background-color: tan;
-    margin: 30px
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h3 {
@@ -42,16 +44,6 @@ h1 {
     font-size: 40px;
     background-color: rgb(208, 147, 68);
     padding-bottom: 20px;
-}
-
-footer {
-    display: block;
-    text-align: center;
-    font-size: 18px;
-    color: red;
-    padding-bottom: 20px;
-    text-decoration: none;
-
 }
 
 /*pages*/
