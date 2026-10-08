@@ -7,7 +7,7 @@ body {
 }
 
 header {
-     display: flex;
+    display: flex;
     justify-content: space-between;
     background-color: brown;
     color: rgb(255, 170, 0);
@@ -29,8 +29,6 @@ header {
 .main {
     background-color: tan;
     margin: 30px;
-    display: flex;
-    flex-direction: column;
 }
 
 h1, h3 {
@@ -60,7 +58,6 @@ video {
     padding: 20px;
     align-items: center;
     gap: 20px;
-
 }
 
 .opener {
