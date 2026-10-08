@@ -105,3 +105,11 @@ header {
    font-size: 18px;
    padding: 20px;
 }
+
+.block p {
+    padding-top: 10px;
+}
+
+.block ol {
+    padding-top: 10px;
+}
