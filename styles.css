@@ -6,6 +6,25 @@ body {
     margin: 0px;
 }
 
+.main {
+    background-color: tan;
+    margin: 30px;
+}
+
+h1, h3 {
+    color: brown;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    background-color: rgb(208, 147, 68);
+    padding-bottom: 20px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -33,27 +52,8 @@ header {
     }
 }
 
-.main {
-    background-color: tan;
-    margin: 30px;
-}
-
-h1, h3 {
-    color: brown;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
-}
-
-h1 {
-    padding-top: 20px;
-    font-size: 40px;
-    background-color: rgb(208, 147, 68);
-    padding-bottom: 20px;
-}
-
 /*pages*/
-video {
+.home-page-video {
     display: block;
     margin: 0 auto;
     padding: 20px;
@@ -61,13 +61,13 @@ video {
 }
 
 @media (width < 850px) {
-    video {
+    .home-page-video {
         width: 300px;
         height: auto;
     }
 }
 
-.first-row {
+.photo-text-block {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -76,17 +76,17 @@ video {
 }
 
 @media (width < 850px) {
-    .first-row {
+    .photo-text-block {
         flex-direction: column;
     }
 }
 
-.opener {
+.text-column {
     padding-left: 20px;
     font-size: 22px;
 }
 
-.top-photo {
+.photo-column {
     padding-right: 20px;
     width: 300px;
     height: 300px;
