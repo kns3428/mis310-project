@@ -99,3 +99,9 @@ header {
     min-width: 300px;
     max-width: 100%;
 }
+
+.block {
+   color:rgb(39, 39, 39); 
+   font-size: 18px;
+   padding: 20px;
+}
