@@ -5,6 +5,22 @@ body {
     font-size: 15px;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: brown;
+    color: rgb(255, 170, 0);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    gap: 10px;
+    font-size: 15px;
+}
+
 section {
     background-color: tan;
     margin: 30px
