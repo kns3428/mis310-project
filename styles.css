@@ -75,6 +75,12 @@ video {
     gap: 20px;
 }
 
+@media (width < 850px) {
+    .first-row {
+        flex-direction: column;
+    }
+}
+
 .opener {
     padding-left: 20px;
     font-size: 22px;
