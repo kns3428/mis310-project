@@ -121,6 +121,19 @@ header {
     padding-top: 10px;
 }
 
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;   
+}
+
+.grid-layout p{
+    text-align: center;
+    background-color: darkorange;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+
 .crew {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
