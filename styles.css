@@ -64,15 +64,6 @@ header {
     }
 }
 
-a {
-  text-decoration: none;
-  color:rgb(39, 39, 39);
-}
-
-a:hover {
-  color: rgb(255, 170, 0);
-}
-
 /*pages*/
 .home-page-video {
     display: block;
@@ -119,15 +110,7 @@ a:hover {
 .block {
    color:rgb(39, 39, 39); 
    font-size: 18px;
-   padding: 20px;
-}
-
-.block p {
-    padding-top: 10px;
-}
-
-.block ol {
-    padding-top: 10px;
+   padding: 20px;  
 }
 
 .grid-layout {
@@ -164,13 +147,21 @@ a:hover {
 .photo-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 20px;
-    justify-content: center;
+    gap: 20px;
+    padding-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+@media (width < 850px) {
+    .photo-gallery {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .photo-gallery img {
   width: 150px;
-  height: 150px;
+  height: 150px;  
   object-fit: cover;
-  object-position: center;
+  justify-self: center;  
 }
