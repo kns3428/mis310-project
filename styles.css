@@ -64,6 +64,15 @@ header {
     }
 }
 
+a {
+    text-decoration: none;
+    color:rgb(39, 39, 39);
+}
+
+a:hover {
+    color: rgb(255, 170, 0);
+}
+
 /*pages*/
 .home-page-video {
     display: block;
