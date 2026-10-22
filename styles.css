@@ -160,3 +160,17 @@ a:hover {
     background-color: darkorange;
     margin: 0;
 }
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    justify-content: center;
+}
+
+.photo-gallery img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
