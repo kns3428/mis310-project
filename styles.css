@@ -35,7 +35,7 @@ h2 {
 
 /*only used for sitename*/
 h4 {
-    color: rgb(255, 170, 0);
+    color: rgb(254, 177, 24);
     font-size: 20px;
     font-weight: bold;
 }
@@ -54,7 +54,7 @@ header {
     text-decoration: none;
     padding-left: 10px;
     font-size: 15px;
-    color: rgb(255, 170, 0);
+    color: rgb(254, 177, 24);
 }
 
 @media (width < 850px) {
@@ -70,7 +70,7 @@ a {
 }
 
 a:hover {
-    color: rgb(255, 170, 0);
+    color: rgb(254, 177, 24);
 }
 
 .external-link {
@@ -195,7 +195,7 @@ form ul {
 }
 
 form button {
-    background-color: rgb(255, 170, 0);
+    background-color: rgb(254, 177, 24);
     font-size: 18px;
     padding: 8px;
 
