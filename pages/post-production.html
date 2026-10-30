@@ -25,6 +25,64 @@
             <h1>The Basics of Post-Production</h1>
 
             <h3>Did you make something awesome? Share it with us!</h3>
+
+            <form 
+            action="https://miswebapps.uncw.edu/mis310/form-submit.aspx" 
+            method="post">
+
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+            </p>
+            <p>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" />
+            </p>
+            <p>
+                <label for="film-name">Film Name:</label>
+                <input type="text" id="film-name" name="film_name" />
+            </p>
+
+            <legend>Where was the film made?</legend>
+                <ul>
+                    <li>
+                        <label for="option_1">
+                        <input type="radio" id="option_1" name="option" value="club" />
+                        student film club
+                        </label>
+                    </li>
+                    <li>
+                        <label for="option_2">
+                        <input type="radio" id="option_2" name="option" value="class" />
+                        in a class
+                        </label>
+                    </li>
+                    <li>
+                        <label for="option_3">
+                        <input type="radio" id="option_3" name="option" value="job" />
+                        through an internship or job
+                        </label>
+                    </li>
+                    <li>
+                        <label for="option_4">
+                        <input type="radio" id="option_4" name="option" value="independently" />
+                        independently
+                        </label>
+                    </li>
+                    <li>
+                        <label for="option_5">
+                        <input type="radio" id="option_5" name="option" value="other" />
+                        other
+                        </label>
+                    </li>
+                </ul>
+
+            <p>
+                <label for="film-link">Link to Film:</label>
+                <input type="link" id="film-link" name="film_link" />
+            </p>
+
+            </form>
         </section>
 
         
