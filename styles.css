@@ -74,7 +74,7 @@ a:hover {
 }
 
 .external-link {
-    text-decoration: normal;
+    text-decoration: underline;
     color: brown;
 }
 
