@@ -174,3 +174,24 @@ a:hover {
   object-fit: cover;
   justify-self: center;  
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+form ul {
+    list-style: none;
+    font-weight: normal;
+}
+
+form button {
+    background-color: rgb(255, 170, 0);
+    font-size: 18px;
+    padding: 8px;
+
+}
