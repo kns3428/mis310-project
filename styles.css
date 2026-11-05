@@ -224,3 +224,7 @@ form button {
     object-fit: cover;
     justify-self: center;  
 }
+
+.text-blurb {
+    padding: 20px;
+}
