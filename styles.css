@@ -136,10 +136,12 @@ a:hover {
 .grid-layout1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;   
+    gap: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.grid-layout p , .gridlayout1 p{
+.grid-layout p, .grid-layout1 p{
     text-align: center;
     background-color: darkorange;
     padding-top: 10px;
