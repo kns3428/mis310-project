@@ -200,3 +200,7 @@ form button {
     padding: 8px;
 
 }
+
+.photo-strip {
+    display: flex;
+}
