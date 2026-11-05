@@ -139,7 +139,7 @@ a:hover {
     gap: 30px;   
 }
 
-.grid-layout p{
+.grid-layout p , .gridlayout1 p{
     text-align: center;
     background-color: darkorange;
     padding-top: 10px;
