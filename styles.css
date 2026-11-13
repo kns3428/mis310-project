@@ -233,4 +233,11 @@ form button {
 
 .question {
     font-weight: bold;
+    padding: 20px;
+}
+
+.answer {
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 50px;
 }
