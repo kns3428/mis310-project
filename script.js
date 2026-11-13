@@ -1,6 +1,6 @@
 const clickable = document.querySelector(".question");
 const revealed = document.querySelector(".answer");
 
-clickable.addEventlistener("click", function() {
+clickable.addEventListener("click", function() {
     revealed.classList.toggle("visible");
 });
