@@ -227,6 +227,10 @@ form button {
     justify-self: center;  
 }
 
+#screening {
+    padding: 20px;
+}
+
 .text-blurb {
     padding: 20px;
 }
