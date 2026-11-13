@@ -1,5 +1,5 @@
-const clickable = document.querySelector(".question");
-const revealed = document.querySelector(".answer");
+const clickable = document.querySelectorAll(".question");
+const revealed = document.querySelectorAll(".answer");
 
     
 clickable.forEach((clickable) => {
