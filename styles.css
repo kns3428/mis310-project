@@ -237,6 +237,11 @@ form button {
 }
 
 .answer {
+    display: none;   
+}
+
+.answer.visible {
+    display: block;
     font-size: 15px;
     padding: 10px;
     padding-left: 50px;
