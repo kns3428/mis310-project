@@ -243,6 +243,7 @@ form button {
 
 .question:hover {
     color: brown;
+    cursor: pointer;
 }
 
 .answer {
