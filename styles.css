@@ -230,3 +230,7 @@ form button {
 .text-blurb {
     padding: 20px;
 }
+
+.question {
+    font-weight: bold;
+}
